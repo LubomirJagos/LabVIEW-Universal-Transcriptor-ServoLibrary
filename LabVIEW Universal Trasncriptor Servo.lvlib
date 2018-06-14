@@ -4,14 +4,16 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="attach.vi" Type="VI" URL="../attach.vi"/>
-	<Item Name="attached.vi" Type="VI" URL="../attached.vi"/>
-	<Item Name="attachMinMax.vi" Type="VI" URL="../attachMinMax.vi"/>
-	<Item Name="detach.vi" Type="VI" URL="../detach.vi"/>
-	<Item Name="read.vi" Type="VI" URL="../read.vi"/>
-	<Item Name="readMicroseconds.vi" Type="VI" URL="../readMicroseconds.vi"/>
+	<Item Name="VIs_NoClassImplementation" Type="Folder">
+		<Item Name="attach.vi" Type="VI" URL="../VIs_NoClassImplementation/attach.vi"/>
+		<Item Name="attached.vi" Type="VI" URL="../VIs_NoClassImplementation/attached.vi"/>
+		<Item Name="attachMinMax.vi" Type="VI" URL="../VIs_NoClassImplementation/attachMinMax.vi"/>
+		<Item Name="detach.vi" Type="VI" URL="../VIs_NoClassImplementation/detach.vi"/>
+		<Item Name="read.vi" Type="VI" URL="../VIs_NoClassImplementation/read.vi"/>
+		<Item Name="readMicroseconds.vi" Type="VI" URL="../VIs_NoClassImplementation/readMicroseconds.vi"/>
+		<Item Name="write.vi" Type="VI" URL="../VIs_NoClassImplementation/write.vi"/>
+		<Item Name="writeMicroseconds.vi" Type="VI" URL="../VIs_NoClassImplementation/writeMicroseconds.vi"/>
+	</Item>
 	<Item Name="ServoDatatype.lvclass" Type="LVClass" URL="../ServoDatatype.lvclass"/>
 	<Item Name="Translator.vi" Type="VI" URL="../ServoDatatype Class/Translator.vi"/>
-	<Item Name="write.vi" Type="VI" URL="../write.vi"/>
-	<Item Name="writeMicroseconds.vi" Type="VI" URL="../writeMicroseconds.vi"/>
 </Library>
